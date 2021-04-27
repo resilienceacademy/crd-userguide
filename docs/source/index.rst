@@ -13,6 +13,14 @@ All documents corresponding are uploaded to CRD.
   using-crd
   community
   layers
+  thematic-maps
+  documents
+  data-provider
+  metadata
+  spatial-geometry-and-connectivity
+  submitting-data
+  quality-control
+
 
 
 .. image:: https://readthedocs.org/projects/pip/badge/?version=latest&style=plastic

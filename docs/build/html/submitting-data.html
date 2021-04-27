@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>submitting-data &#8212; CRD userguide 0.0.1 documentation</title>
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Spatial geometry and connectivity" href="spatial-geometry-and-connectivity.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="submitting-data">
+<h1>submitting-data<a class="headerlink" href="#submitting-data" title="Permalink to this headline">¶</a></h1>
+<p>If you have geospatial data that would be great for sharing in the Climate Risk Database, kindly contact the CRD Data managers’ team first.
+Agree how you will submit the datasets: via sending the files to the CRD Data managers’ team, or by uploading them directly to the Climate Risk Database.
+In case of uploading data yourself requires registration and updating your profile information. See instructions for registering from the section above.
+If you would prefer the CRD Data managers’ team to upload the data, that is also possible.</p>
+<p>Thank you for contributing to our community by providing your data to the Climate Risk Database!</p>
+<div class="section" id="upload-layer">
+<h2>Upload layer<a class="headerlink" href="#upload-layer" title="Permalink to this headline">¶</a></h2>
+<p>Download visual instructions: Upload layers to CRD.</p>
+<ol class="arabic simple">
+<li><p>Click Layers in the top navigation bar, and then click Upload layers from the top-right corner.</p></li>
+<li><p>Follow the instructions of the upload page. Files needed for vector datasets in Shapefile format are: .shp .shx .dbf .prj. File needed for raster datasets in TIFF format is: .tif.</p></li>
+<li><p>Click Upload files and wait until they have been successfully loaded.</p></li>
+<li><p>Change the permission settings, if relevant. The permissions can be changed afterwards, too.</p></li>
+<li><p>Click Edit metadata. See the next section.</p></li>
+</ol>
+</div>
+<div class="section" id="edit-metadata">
+<h2>Edit metadata<a class="headerlink" href="#edit-metadata" title="Permalink to this headline">¶</a></h2>
+<p>Download visual instructions: <a class="reference external" href="https://geonode.resilienceacademy.ac.tz/documents/138">Instruction: CRD Metadata Wizard.</a></p>
+<p>1.      Fill in all metadata fields of the Metadata Wizard that opens up. Use the visual instructions as a guideline,
+if needed. Don’t forget to fill in attribute metadata for vector layers!
+2.      When you are ready, click Update. You are redirected to the layer page.
+3.      If you want to edit the metadata later, click Editing tools from the right-hand side menu, and choose Wizard under the Metadata section.
+4.      If you want to edit layer permissions, scroll the page down and click Change Layer Permission from the right-hand side menu.</p>
+</div>
+<div class="section" id="upload-style">
+<h2>Upload style<a class="headerlink" href="#upload-style" title="Permalink to this headline">¶</a></h2>
+<p>Custom styles can (and should!) be uploaded to CRD to override the default styling that is created automatically when a layer is uploaded to CRD.
+The style must be a SLD (Styled Layer Descriptor) file, which can be exported from QGIS.
+Find instructions for creating a SLD file from the document <a class="reference external" href="https://geonode.resilienceacademy.ac.tz/documents/135">Instruction: Creating SLD in QGIS.</a>
+From this document you also find visual instructions of how to upload the SLD file to CRD.</p>
+<ol class="arabic simple">
+<li><p>Go to the layer page of that specific layer of which you want to style with the SLD file you have created. Note: you must be signed in, and have permissions to edit the layer in order to edit its style!</p></li>
+<li><p>Click Editing Tools. Choose Upload from the Styles section of the pop-up-window.</p></li>
+<li><p>Drag-and-drop or choose the SLD file and click Upload files.</p></li>
+<li><p>Click Layer info to view the new style in action!</p></li>
+<li><p>If you encounter any problems, please contact the CRD Data managers. Sometimes the GeoNode-platform can be a bit tricky when updating styles.</p></li>
+</ol>
+</div>
+<div class="section" id="upload-layer-through-command-line">
+<h2>Upload layer through command line<a class="headerlink" href="#upload-layer-through-command-line" title="Permalink to this headline">¶</a></h2>
+<p>Download instructions: <a class="reference external" href="https://geonode.resilienceacademy.ac.tz/documents/132">Upload data using command line.</a>
+You can upload data to CRD through the command line. This is useful, for example, when</p>
+<ul class="simple">
+<li><p>The dataset is simply too big to be uploaded through a web interface,</p></li>
+<li><p>You would like to import some data from the mass storage programmatically,</p></li>
+<li><p>You would like to import some tables from a DataBase or</p></li>
+<li><p>You need to process the data first and, maybe, transform it to another format.</p></li>
+</ul>
+</div>
+<div class="section" id="upload-documents">
+<h2>Upload documents<a class="headerlink" href="#upload-documents" title="Permalink to this headline">¶</a></h2>
+<p>In case you have documents, such as reports, additional information or map images you would like to attach to your dataset,
+they can be also uploaded to the Climate Risk Database and linked to your data. To upload documents you must be a registered member of Climate Risk Database,
+and you must be signed in. In case you would like the CRD Data managers’ team to upload the documents,
+please submit the documents to them with relevant metadata (see point 5 below).</p>
+<ol class="arabic simple">
+<li><p>Navigate to Resources → Document in the top navigation bar.</p></li>
+<li><p>Click Upload Documents from the top-right corner.</p></li>
+<li><p>Choose the file you want to upload, and give it a title. If the document is attached to a dataset, choose the dataset from the drop-down menu. Set the permissions for the dataset (this can be done later as well).</p></li>
+<li><p>Click Upload.</p></li>
+<li><p>Fill in the metadata for the dataset. Note that not all of the metadata fields are relevant for all documents. Fill in at least the Title, Abstract, Keywords, Date, License, Language and Purpose.</p></li>
+<li><p>Click Update when you are finished.</p></li>
+<li><p>Check that everything looks good on the document’s page. If you want to edit the metadata, click Edit Document → Wizard or Change Permissions if you want to change the permissions of the document.</p></li>
+</ol>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="index.html">
+              <img class="logo" src="_static/logo.png" alt="Logo"/>
+            </a></p>
+<h1 class="logo"><a href="index.html">CRD userguide</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Table of Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="using-crd.html">Using CRD</a></li>
+<li class="toctree-l1"><a class="reference internal" href="community.html">Community</a></li>
+<li class="toctree-l1"><a class="reference internal" href="layers.html">Layers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="thematic-maps.html">Thematic Maps</a></li>
+<li class="toctree-l1"><a class="reference internal" href="documents.html">Documents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data-provider.html">Data Provider</a></li>
+<li class="toctree-l1"><a class="reference internal" href="metadata.html">Metadata</a></li>
+<li class="toctree-l1"><a class="reference internal" href="spatial-geometry-and-connectivity.html">Spatial geometry and connectivity</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">submitting-data</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#upload-layer">Upload layer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#edit-metadata">Edit metadata</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#upload-style">Upload style</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#upload-layer-through-command-line">Upload layer through command line</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#upload-documents">Upload documents</a></li>
+</ul>
+</li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="spatial-geometry-and-connectivity.html" title="previous chapter">Spatial geometry and connectivity</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2021, Venla Aaltonen, Msilikale Msilanga and Massoud Hamad.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.5.4</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/submitting-data.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

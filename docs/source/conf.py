@@ -17,8 +17,8 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'crd userguide'
-copyright = '2021, Venla Aaltonen'
+project = 'CRD userguide'
+copyright = '2021, Venla Aaltonen, Msilikale Msilanga and Massoud Hamad'
 author = 'Venla Aaltonen'
 
 # The full version, including alpha/beta/rc tags
@@ -49,7 +49,9 @@ exclude_patterns = []
 #
 #html_theme = 'alabaster'
 
+
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+html_logo = "_static/logo.png"
