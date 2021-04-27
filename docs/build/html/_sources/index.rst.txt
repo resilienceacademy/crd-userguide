@@ -54,9 +54,9 @@ After confirmation you are good to go and sign into the Climate Risk Database.
 
 Welcome aboard!
 
-Indices and tables
-==================
+.. Indices and tables
+.. ==================
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+ * :ref:`genindex`
+ * :ref:`modindex`
+ * :ref:`search`
