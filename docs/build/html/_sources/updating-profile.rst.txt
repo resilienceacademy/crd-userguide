@@ -1,0 +1,15 @@
+
+=========
+Using CRD
+=========
+
+Registering and updating profile
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+**Registering**
+
+Join the Climate Risk Database community by registering and updating your profile. As a member, you may access all CRD’s features, such as uploading layers and documents, and saving the maps you have created.
+
+1. Click Register in the top-right corner.
+2. Fill out the form. Enter your email, create username and password.
+3. After administration of the CRD validates your account, you will get an email to confirm your account. After confirmation you are good to go and sign into the Climate Risk Database. Welcome aboard!
