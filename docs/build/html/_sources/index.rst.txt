@@ -15,7 +15,9 @@ All documents corresponding are uploaded to CRD.
   layers
 
 
-
+.. image:: https://readthedocs.org/projects/pip/badge/?version=latest&style=plastic
+  :target: https://crd-userguide-3.readthedocs.io/en/latest/index.html
+  :alt: Documentation status
 
 
 Welcome to the user guide of the Climate Risk Database. Here you will find general user instructions for the website, but also more specific instructions for data providers and data users.
