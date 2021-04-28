@@ -1,17 +1,17 @@
-#CRD-Userguide
+# CRD-Userguide
 
 [![Generic badge](https://img.shields.io/badge/<update>-<Status>-<COLOR>.svg)](https://crd-userguide.readthedocs.io/en/latest/)
 
 This documentation have can be accessed using this link: https://crd-userguide.readthedocs.io/en/latest/
 
-#Contacting
+# Contacting
 
-##Resilience Academy##
+## Resilience Academy##
 
 Contact Resilience Academy in general inquiries by emailing to resilienceacademytz@gmail.com.
 
 
-##CRD Data managers##
+## CRD Data managers##
 
 Contact the Climate Risk Database data management team in matters of discussing datasets that could be uploaded to CRD, the details of quality standards, or when other advice related to data is needed. CRD Data managers’ team members can be found from Community → Community groups → Data Managers → Click the group icon.
 
