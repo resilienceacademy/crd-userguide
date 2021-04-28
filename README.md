@@ -4,7 +4,7 @@
   :target: https://crd-userguide-3.readthedocs.io/en/latest/index.html
   :alt: Documentation status
 
-This documentation have can be accessed using this link: https://crd-userguide-3.readthedocs.io/en/latest/index.html
+This documentation have can be accessed using this link: https://crd-userguide.readthedocs.io/en/latest/
 
 **Contacting**
 
