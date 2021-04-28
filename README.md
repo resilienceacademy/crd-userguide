@@ -11,6 +11,7 @@ Contact Resilience Academy in general inquiries by emailing to resilienceacademy
 
 
 ##CRD Data managers
+
 Contact the Climate Risk Database data management team in matters of discussing datasets that could be uploaded to CRD, the details of quality standards, or when other advice related to data is needed. CRD Data managers’ team members can be found from Community → Community groups → Data Managers → Click the group icon.
 
 Here you can see the CRD Data Managers and their contact information. Contact one or all of them via sending email. They are happy to help!
