@@ -1,6 +1,6 @@
 # crd-userguide
 
-[![Generic badge](https://img.shields.io/badge/<update>-<Status>-<COLOR>.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/update- Status -<COLOR>.svg)](https://crd-userguide.readthedocs.io/en/latest/)
 
 This documentation have can be accessed using this link: https://crd-userguide.readthedocs.io/en/latest/
 
