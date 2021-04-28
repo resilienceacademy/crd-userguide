@@ -8,7 +8,7 @@ This documentation have can be accessed using this link: https://crd-userguide.r
 
 ## Resilience Academy
 
-Contact Resilience Academy in general inquiries by emailing to resilienceacademytz@gmail.com.
+**_NOTE:_**  Contact Resilience Academy in general inquiries by emailing to resilienceacademytz@gmail.com.
 
 
 ## CRD Data managers
