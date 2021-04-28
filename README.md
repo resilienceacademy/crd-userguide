@@ -1,8 +1,6 @@
 # crd-userguide
 
-.. image:: https://img.shields.io/npm/v/nock
-  :target: https://crd-userguide-3.readthedocs.io/en/latest/index.html
-  :alt: Documentation status
+[![Generic badge](https://img.shields.io/badge/<update>-<Status>-<COLOR>.svg)](https://shields.io/)
 
 This documentation have can be accessed using this link: https://crd-userguide.readthedocs.io/en/latest/
 
