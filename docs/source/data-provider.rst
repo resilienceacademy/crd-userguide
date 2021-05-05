@@ -98,8 +98,8 @@ Climate Risk Database and Resilience Academy are advocates for open data and inf
 - Creative Commons Attribution Share-Alike Non-Commercial 4.0
 - Other Creative Commons 4.0 variations
 
-For example: All World Bank owned datasets published in the CRD are licensed under Creative Commons Attribution 4.0 (CC-BY 4.0), which means the users are allowed to copy, modify and distribute data in any format for any purpose, including commercial use. Users are only obligated to give appropriate credit (attribution) and indicate if they have made any changes, including translations. `Read more about Creative Commons licenses: <https://creativecommons.org/about/cclicenses/>`_`
-All OpenStreetMap related datasets must follow the terms of licenses of OpenStreenMap Foundation. OpenStreetMap licenses their data under Open Data Commons Open Database License (ODbL). `Read more: <https://www.openstreetmap.org/copyright>`_`
+For example: All World Bank owned datasets published in the CRD are licensed under Creative Commons Attribution 4.0 (CC-BY 4.0), which means the users are allowed to copy, modify and distribute data in any format for any purpose, including commercial use. Users are only obligated to give appropriate credit (attribution) and indicate if they have made any changes, including translations. `Read more about Creative Commons licenses: <https://creativecommons.org/about/cclicenses/>`_
+All OpenStreetMap related datasets must follow the terms of licenses of OpenStreenMap Foundation. OpenStreetMap licenses their data under Open Data Commons Open Database License (ODbL). `Read more: <https://www.openstreetmap.org/copyright>`_
 
 
 submitting-data
