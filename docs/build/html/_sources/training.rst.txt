@@ -20,13 +20,13 @@ Course platform requires a Gmail-registration. Relevant content for data provide
 - `Module 6: Community mapping for improved resilience planning <https://digicampus.fi/course/view.php?id=1014>`_
 
 Tool instructions
-^^^^^^^^^^^^^^^^^
+*****************
 
 A list of useful tools for geospatial data management can be found in the CRD, just navigate to **Resources → Tools**.
 The Resilience Academy has created instructions for using these tools and they can be downloaded via the CRD as well.
 
 Events and trainings
-^^^^^^^^^^^^^^^^^^^^
+********************
 
 Resilience Academy has hosted a number of events to train geospatial experts in data management related issues.
 Some of these events has been recorded and the recordings can be found from the Resilience Academy YouTube-channel, under the playlist `Data quality, data management, data sharing online training <https://youtube.com/playlist?list=PLHZ-OHNG6he6qXleatlOaXotKK4N_xo-5>`_. 

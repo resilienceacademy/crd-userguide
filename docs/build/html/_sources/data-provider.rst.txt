@@ -20,7 +20,7 @@ Download data quality requirements and checklist of the standards applied in the
 The elements of these documents are highlighted below.
 
 Metadata
-^^^^^^^^
+********
 
 Metadata describes the dataset and its lineage, and therefore it is as crucial an element as the geospatial dataset itself. All datasets published in the Climate Risk Database must have metadata in a standardized format.
 
@@ -32,7 +32,7 @@ Download the metadata instruction through the CRD: `Metadata instruction <https:
 
 
 Attribute metadata
-^^^^^^^^^^^^^^^^^^
+******************
 
 Attribute metadata describes the attributes of **vector** datasets. Attribute metadata must be created for all vector datasets - the information about attribute names, their description, value type and value range helps the data user to understand what the attributes mean and how they can be used.
 
@@ -41,9 +41,6 @@ The Climate Risk Database follows the International Organization for Standardiza
 Example: `Dar es Salaam Historical Flood Depths <https://geonode.resilienceacademy.ac.tz/layers/geonode_data:geonode:dar_es_salaam_historical_flood_depths>`_ has a great set of attribute metadata (click **Attributes** under the map).
 
 Download the attribute metadata instruction through the CRD: -	`Attribute metadata instruction <https://geonode.resilienceacademy.ac.tz/documents/145>`_
-
-
-
 
 Spatial geometry and connectivity
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -127,7 +124,7 @@ Download visual instructions: `Instruction: Upload layers to CRD. <https://geono
 5.	Click **Edit metadata**. See the next section.
 
 Edit metadata
-^^^^^^^^^^^^^
+*************
 
 Download visual instructions: `Instruction: CRD Metadata Wizard. <https://geonode.resilienceacademy.ac.tz/documents/138>`_
 
@@ -138,7 +135,7 @@ if needed. Don’t forget to fill in attribute metadata for vector layers!
 4.	If you want to edit layer permissions, scroll the page down and click **Change Layer Permission** from the right-hand side menu.
 
 Upload style
-^^^^^^^^^^^^
+************
 
 Custom styles can (and should!) be uploaded to CRD to override the default styling that is created automatically when a layer is uploaded to CRD.
 The style must be a SLD (Styled Layer Descriptor) file, which can be exported from QGIS.
@@ -151,7 +148,7 @@ Find instructions for creating a SLD file from the document `Instruction: Creati
 5.	If you encounter any problems, please contact the CRD Data managers. Sometimes the GeoNode-platform can be a bit tricky when updating styles.
 
 Upload layer through command line
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+*********************************
 
 Download instructions: `Instruction: Upload data using command line. <https://geonode.resilienceacademy.ac.tz/documents/132>`_
 
@@ -163,7 +160,7 @@ You can upload data to CRD through the command line. This is useful, for example
 - You need to process the data first and, maybe, transform it to another format.
 
 Upload documents
-^^^^^^^^^^^^^^^^
+****************
 
 In case you have documents, such as reports, additional information or map images you would like to attach to your dataset,
 they can be also uploaded to the Climate Risk Database and linked to your data. To upload documents you must be a registered member of Climate Risk Database,

@@ -57,7 +57,7 @@ Find out who else is part of the Climate Risk Database community by exploring re
 3. Click that member’s username whose profile you want to explore.
 
 Contact users
-^^^^^^^^^^^^^
+*************
 
 You can view other members’ profiles to get to know them more, and even send them messages.
 
@@ -71,7 +71,7 @@ You can view other members’ profiles to get to know them more, and even send t
     :align: center
 
 Invite users
-^^^^^^^^^^^^
+************
 
 If you know someone who would love to be a member of the Climate Risk Database community, or they would have content to contribute with, you can invite them to be a member by sending an email invitation.
 
@@ -81,7 +81,7 @@ If you know someone who would love to be a member of the Climate Risk Database c
 4.	**Note:** If this feature is disabled on your profile page, this activity is not currently available for you.
 
 Data owners
-^^^^^^^^^^^
+***********
 
 All layers uploaded to CRD have an owner, which is an organization that has been part of creating the data and/or owns it. You can explore all the owner organizations and access their profile page through layers that are owned by them. From the profile page, you can find description of the organization, as well as their contact information.
 
@@ -90,7 +90,7 @@ All layers uploaded to CRD have an owner, which is an organization that has been
 3.	If you have questions regarding the datasets owned by the organization, you can click the email address linked to their profile page and send them a message.
 
 Community groups
-^^^^^^^^^^^^^^^^
+****************
 
 Climate Risk Database has different community groups for the community members, depending on their role in the Climate Risk Database. Most of the registered members are Data Users. They engage with the data by creating data stories and using the data in different cases. The group of Data Users may consist of smaller groups, for example students of a particular University. Therefore, they can execute activities, such as start conversations, in their own group.
 Some of the members are CRD Data Managers. They are data experts who validate and approve all layers that are uploaded to CRD. If you would like to join this group and be a Data Manager of the Climate Risk Database, send a message to the email address provided in the CRD Data Managers group description.
@@ -126,7 +126,7 @@ Explore all geospatial datasets published in the CRD, view them on a map and dow
 
 
 Layer page
-***********
+**********
 
 Layer page contains a preview and metadata of the layer in questions, downloading options and other functions.
 
@@ -143,7 +143,7 @@ Layer page contains a preview and metadata of the layer in questions, downloadin
   .. :copyright: (c) 2021 by resilienceacademytz.
 
 Layer metadata
-^^^^^^^^^^^^^^
+**************
 
   1.	Below the map view of the layer, you find the most important metadata of the layer from the tab **Info**. Scroll down and click **More info** to see additional metadata.
   2.	To view more detailed metadata, click **Metadata Detail** from the right-hand side of the map window.
@@ -158,7 +158,7 @@ Layer metadata
   .. :copyright: (c) 2021 by resilienceacademytz.
 
 Layer preview
-^^^^^^^^^^^^^
+*************
 
 1.	You can preview the layer on the layer page, but also in a separate map view. Click **View Layer** on the right-hand side bar.
 2.	In the new map window that opens up, you can search place names or coordinates by using the search bar in the top-right corner.

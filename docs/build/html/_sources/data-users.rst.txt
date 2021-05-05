@@ -25,7 +25,7 @@ WFS/WMS
 An easy way to access all layers in the Climate Risk Database is via GIS software, such as QGIS. Layers can be accessed by using Web Feature Service or Web Map Service. Download visual instructions here: `Instruction: Open layers in QGIS via WFS/WMS <https://geonode.resilienceacademy.ac.tz/documents/345>`_.
 
 Terms
-*****
+^^^^^
 
 Always remember to comply with the license the data is shared under. Each layer has a license that determines how it can be used. Most of the layers in CRD have an open license which allows any kind of use of the data, but requires the user to attribute the data owner and the Climate Risk Database. 
 Check the license and how the attribution should be done from the dataset’s metadata. Clicking the info-symbol reveals more information about the license and an attribution example.
