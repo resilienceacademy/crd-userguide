@@ -14,8 +14,8 @@
     <script src="_static/doctools.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Metadata" href="metadata.html" />
-    <link rel="prev" title="Documents" href="documents.html" />
+    <link rel="next" title="Training" href="training.html" />
+    <link rel="prev" title="Using CRD" href="using-crd.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
@@ -37,11 +37,168 @@
 <p>Do you have datasets that would be suitable to be published in the CRD? Or are you starting a new data collection process with the final data product being uploaded to the CRD? Please take a look at this section’s content to guide your work.</p>
 <div class="section" id="data-quality-standards">
 <h2>Data quality standards<a class="headerlink" href="#data-quality-standards" title="Permalink to this headline">¶</a></h2>
-<p>All datasets published via the CRD must meet CRD Data quality requirements and standards. This ensures the consistency of high quality and reliability of each dataset, which serves the future data users. High-quality datasets can be used for reliable decision making, education and research.</p>
-<p><strong>Download data quality requirements and checklist of the standards applied in the Climate Risk Database through the CRD:</strong></p>
-<p>Download <a class="reference external" href="https://geonode.resilienceacademy.ac.tz/documents/398">data quality requirement and standards</a></p>
-<p>Download <a class="reference external" href="https://geonode.resilienceacademy.ac.tz/documents/182">data quality requirement and standards (TURP)</a> this version is for data acquisition projects under the TURP program.</p>
+<p>All datasets published via the CRD must meet <strong>CRD Data quality requirements and standards</strong>. This ensures the consistency of high quality and reliability of each dataset, which serves the future data users. High-quality datasets can be used for reliable decision making, education and research.</p>
+<p>Download data quality requirements and checklist of the standards applied in the Climate Risk Database through the CRD:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://geonode.resilienceacademy.ac.tz/documents/398">data quality requirement and standards</a></p></li>
+<li><p><a class="reference external" href="https://geonode.resilienceacademy.ac.tz/documents/182">data quality requirement and standards (TURP)</a> this version is for data acquisition projects under the TURP program.</p></li>
+</ul>
 <p>The elements of these documents are highlighted below.</p>
+</div>
+<div class="section" id="metadata">
+<h2>Metadata<a class="headerlink" href="#metadata" title="Permalink to this headline">¶</a></h2>
+<p>Metadata describes the dataset and its lineage, and therefore it is as crucial an element as the geospatial dataset itself. All datasets published in the Climate Risk Database must have metadata in a standardized format.</p>
+<p>The Climate Risk Database follows the International Organization for Standardization’s metadata standards. More detailed, the ISO 19115 Geographic Information - Metadata standard.</p>
+<p><em>Example:</em> <a class="reference external" href="https://geonode.resilienceacademy.ac.tz/layers/geonode_data:geonode:nungwi_trees#more">Nungwi Trees</a> dataset has a great set of metadata. The dataset, the collection process and the project behind it has been clearly explained, as well as the consistency and completeness of the data.</p>
+<p>Download the metadata instruction through the CRD: <a class="reference external" href="https://geonode.resilienceacademy.ac.tz/documents/144">Metadata instruction</a></p>
+</div>
+<div class="section" id="attribute-metadata">
+<h2>Attribute metadata<a class="headerlink" href="#attribute-metadata" title="Permalink to this headline">¶</a></h2>
+<p>Attribute metadata describes the attributes of <strong>vector</strong> datasets. Attribute metadata must be created for all vector datasets - the information about attribute names, their description, value type and value range helps the data user to understand what the attributes mean and how they can be used.</p>
+<p>The Climate Risk Database follows the International Organization for Standardization’s metadata standards (ISO 19115 Geographic Information - Metadata) with minor modifications.</p>
+<p>Example: <a class="reference external" href="https://geonode.resilienceacademy.ac.tz/layers/geonode_data:geonode:dar_es_salaam_historical_flood_depths">Dar es Salaam Historical Flood Depths</a> has a great set of attribute metadata (click <strong>Attributes</strong> under the map).</p>
+<p>Download the attribute metadata instruction through the CRD: -  <a class="reference external" href="https://geonode.resilienceacademy.ac.tz/documents/145">Attribute metadata instruction</a></p>
+</div>
+<div class="section" id="spatial-geometry-and-connectivity">
+<h2>Spatial geometry and connectivity<a class="headerlink" href="#spatial-geometry-and-connectivity" title="Permalink to this headline">¶</a></h2>
+<p>Good geometrical quality/topological connectivity for vector datasets means that the vector objects have been created carefully, and no unintentional errors are tolerated. This is case-specific for different datasets, and the data provider must be aware of the best practices in their field.</p>
+<p>For example:</p>
+<ul class="simple">
+<li><p>Geometric lines representing a two-way road can be drawn from either direction, whereas in drainage network data the direction of the geometry lines should be parallel with the flow of water in the drainage segment. All lines in road network dataset must be connected (since all roads are connected in the real world as well), but some drainage segments might be independent compared to other segments in the same area.</p></li>
+<li><p>A polygon data representing Wards in Dar es Salaam region must not have any gaps or overlappings between each other, but polygon data representing only forested areas can have independent polygons with gaps around them.</p></li>
+</ul>
+<p>GIS software has tools or plugins to check the most general connectivity rules. In case of more specific connectivity rules (such as drainage lines), independent software or algorithms may be used. Check the geometric quality of your dataset by using those connectivity rules that can be applied to your case.</p>
+<p>CRD provides a quick instruction how to use the QGIS Topology Fix tool to check the connectivity:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://geonode.resilienceacademy.ac.tz/documents/150">Tool: Check and Fix Geometries, QGIS</a></p></li>
+<li><p><a class="reference external" href="https://geonode.resilienceacademy.ac.tz/documents/406">Tool: Check and Fix Geometries, ArcGIS Pro</a></p></li>
+</ul>
+</div>
+<div class="section" id="attributes-and-values">
+<h2>Attributes and values<a class="headerlink" href="#attributes-and-values" title="Permalink to this headline">¶</a></h2>
+<p>The attributes and values of datasets must be relevant for the phenomenon the dataset represents. Relevant attributes are always case-specific, and recognizing them is easiest when the goal of the data acquisition process is clear. To make sure all values are recorded correctly, all individuals taking part in the acquisition process must understand what the attributes and values mean and how they should be recorded. Training is crucial part to minimize the human errors and uneven quality of the dataset.</p>
+<p>In the final data product, the values should be consistent (e.g. no “type = football” and “type = Football”), be of appropriate format (e.g. numbers in Integer or Decimal format and texts in String format) and all attributes should be complete (i.e. no empty observations). In case of empty observations, “NA” should be recorded, and the reasons of the “NA” should be carefully explained in the metadata. See an example of this in the metadata section Data Quality Statement of <a class="reference external" href="https://geonode.resilienceacademy.ac.tz/layers/geonode_data:geonode:nungwi_buildings">Nungwi Buildings</a> dataset.</p>
+</div>
+<div class="section" id="visualisation">
+<h2>Visualisation<a class="headerlink" href="#visualisation" title="Permalink to this headline">¶</a></h2>
+<p>Good visualisation is at the core of impactful and truthful geospatial data. In case you want the dataset to have a specific visualisation when it is displayed in the Climate Risk Database, make sure you send a visualisation file with the data. Visualisations can be saved to an .SLD file (Styled Layer Descriptor) for example in QGIS, which then can be uploaded to the CRD as such.</p>
+<p>Download an instruction for creating SLD files in QGIS from the CRD:
+-       <a class="reference external" href="https://geonode.resilienceacademy.ac.tz/documents/135">Instruction: Creating SLD in QGIS</a></p>
+</div>
+<div class="section" id="file-format">
+<h2>File format<a class="headerlink" href="#file-format" title="Permalink to this headline">¶</a></h2>
+<p>To ensure accessibility, all files - the dataset and metadata - must be in machine readable formats. Approved file formats are the following:</p>
+<ul class="simple">
+<li><p>Vector datasets: ESRI shapefile, Zipped shapefile, Geopackage, GeoJSON, or CSV with coordinates</p></li>
+<li><p>Raster datasets: TIFF, GZIP</p></li>
+<li><p>Metadata and attribute metadata: Excel-sheets</p></li>
+<li><p>Visualisation: SLD format</p></li>
+</ul>
+</div>
+<div class="section" id="license">
+<h2>License<a class="headerlink" href="#license" title="Permalink to this headline">¶</a></h2>
+<p>All datasets must be shared under a license. License tells data users how they can use the data without violating data owner’s rights. License can determine for example whether the data can be modified, re-shared or used for commercial purposes and how the owner should be acknowledged.</p>
+<p>Climate Risk Database and Resilience Academy are advocates for open data and information sharing. This means the data users have open access to the datasets and they are free to download and use them for their own purposes. Therefore, CRD recommends an open license for the publishable datasets. Most common open licenses are, for example:</p>
+<ul class="simple">
+<li><p>Open Data Commons Open Database License (ODbL)</p></li>
+<li><p>Creative Commons Attribution 4.0</p></li>
+<li><p>Creative Commons Attribution Share-Alike 4.0</p></li>
+<li><p>Creative Commons Attribution Share-Alike Non-Commercial 4.0</p></li>
+<li><p>Other Creative Commons 4.0 variations</p></li>
+</ul>
+<p>For example: All World Bank owned datasets published in the CRD are licensed under Creative Commons Attribution 4.0 (CC-BY 4.0), which means the users are allowed to copy, modify and distribute data in any format for any purpose, including commercial use. Users are only obligated to give appropriate credit (attribution) and indicate if they have made any changes, including translations. <cite>Read more about Creative Commons licenses: &lt;https://creativecommons.org/about/cclicenses/&gt;`_</cite>
+All OpenStreetMap related datasets must follow the terms of licenses of OpenStreenMap Foundation. OpenStreetMap licenses their data under Open Data Commons Open Database License (ODbL). <cite>Read more: &lt;https://www.openstreetmap.org/copyright&gt;`_</cite></p>
+</div>
+<div class="section" id="submitting-data">
+<h2>submitting-data<a class="headerlink" href="#submitting-data" title="Permalink to this headline">¶</a></h2>
+<p>If you have geospatial data that would be great for sharing in the Climate Risk Database, kindly contact the CRD Data managers’ team first.
+Agree how you will submit the datasets: via sending the files to the CRD Data managers’ team, or by uploading them directly to the Climate Risk Database.
+In case of uploading data yourself requires registration and updating your profile information. See instructions for registering from the section above.
+If you would prefer the CRD Data managers’ team to upload the data, that is also possible.</p>
+<p>Thank you for contributing to our community by providing your data to the Climate Risk Database!</p>
+</div>
+<div class="section" id="upload-layer">
+<h2>Upload layer<a class="headerlink" href="#upload-layer" title="Permalink to this headline">¶</a></h2>
+<p>Download visual instructions: <a class="reference external" href="https://geonode.resilienceacademy.ac.tz/documents/127">Instruction: Upload layers to CRD.</a></p>
+<ol class="arabic simple">
+<li><p>Click <strong>Layers</strong> in the top navigation bar, and then click <strong>Upload layers</strong> from the top-right corner.</p></li>
+<li><p>Follow the instructions of the upload page. Files needed for vector datasets in Shapefile format are: .shp .shx .dbf .prj. File needed for raster datasets in TIFF format is: .tif.</p></li>
+<li><p>Click <strong>Upload files</strong> and wait until they have been successfully loaded.</p></li>
+<li><p>Change the permission settings, if relevant. The permissions can be changed afterwards, too.</p></li>
+<li><p>Click <strong>Edit metadata</strong>. See the next section.</p></li>
+</ol>
+</div>
+<div class="section" id="edit-metadata">
+<h2>Edit metadata<a class="headerlink" href="#edit-metadata" title="Permalink to this headline">¶</a></h2>
+<p>Download visual instructions: <a class="reference external" href="https://geonode.resilienceacademy.ac.tz/documents/138">Instruction: CRD Metadata Wizard.</a></p>
+<p>1.      Fill in all metadata fields of the <strong>Metadata Wizard</strong> that opens up. Use the visual instructions as a guideline,
+if needed. Don’t forget to fill in attribute metadata for vector layers!
+2.      When you are ready, click <strong>Update</strong>. You are redirected to the layer page.
+3.      If you want to edit the metadata later, click <strong>Editing tools</strong> from the right-hand side menu, and choose Wizard under the Metadata section.
+4.      If you want to edit layer permissions, scroll the page down and click <strong>Change Layer Permission</strong> from the right-hand side menu.</p>
+</div>
+<div class="section" id="upload-style">
+<h2>Upload style<a class="headerlink" href="#upload-style" title="Permalink to this headline">¶</a></h2>
+<p>Custom styles can (and should!) be uploaded to CRD to override the default styling that is created automatically when a layer is uploaded to CRD.
+The style must be a SLD (Styled Layer Descriptor) file, which can be exported from QGIS.
+Find instructions for creating a SLD file from the document <a class="reference external" href="https://geonode.resilienceacademy.ac.tz/documents/135">Instruction: Creating SLD in QGIS.</a></p>
+<ol class="arabic simple">
+<li><p>Go to the layer page of that specific layer of which you want to style with the SLD file you have created. <strong>Note</strong>: you must be signed in, and have permissions to edit the layer in order to edit its style!</p></li>
+<li><p>Click <strong>Editing Tools</strong>. Choose <strong>Upload</strong> from the Styles section of the pop-up-window.</p></li>
+<li><p>Drag-and-drop or choose the SLD file and click <strong>Upload files</strong>.</p></li>
+<li><p>Click <strong>Layer info</strong> to view the new style in action!</p></li>
+<li><p>If you encounter any problems, please contact the CRD Data managers. Sometimes the GeoNode-platform can be a bit tricky when updating styles.</p></li>
+</ol>
+</div>
+<div class="section" id="upload-layer-through-command-line">
+<h2>Upload layer through command line<a class="headerlink" href="#upload-layer-through-command-line" title="Permalink to this headline">¶</a></h2>
+<p>Download instructions: <a class="reference external" href="https://geonode.resilienceacademy.ac.tz/documents/132">Instruction: Upload data using command line.</a></p>
+<p>You can upload data to CRD through the command line. This is useful, for example, when</p>
+<ul class="simple">
+<li><p>The dataset is simply too big to be uploaded through a web interface,</p></li>
+<li><p>You would like to import some data from the mass storage programmatically,</p></li>
+<li><p>You would like to import some tables from a DataBase or</p></li>
+<li><p>You need to process the data first and, maybe, transform it to another format.</p></li>
+</ul>
+</div>
+<div class="section" id="upload-documents">
+<h2>Upload documents<a class="headerlink" href="#upload-documents" title="Permalink to this headline">¶</a></h2>
+<p>In case you have documents, such as reports, additional information or map images you would like to attach to your dataset,
+they can be also uploaded to the Climate Risk Database and linked to your data. To upload documents you must be a registered member of Climate Risk Database,
+and you must be signed in. In case you would like the CRD Data managers’ team to upload the documents,
+please submit the documents to them with relevant metadata <em>(see point 5 below)</em>.</p>
+<ol class="arabic simple">
+<li><p>Navigate to <strong>Resources → Document</strong> in the top navigation bar.</p></li>
+<li><p>Click <strong>Upload Documents</strong> from the top-right corner.</p></li>
+<li><p>Choose the file you want to upload, and give it a title. If the document is attached to a dataset, choose the dataset from the drop-down menu. Set the permissions for the dataset (this can be done later as well).</p></li>
+<li><p>Click <strong>Upload</strong>.</p></li>
+<li><p>Fill in the metadata for the dataset. Note that not all of the metadata fields are relevant for all documents. Fill in at least the Title, Abstract, Keywords, Date, License, Language and Purpose.</p></li>
+<li><p>Click Update when you are finished.</p></li>
+<li><p>Check that everything looks good on the document’s page. If you want to edit the metadata, click <strong>Edit Document → Wizard or Change Permissions</strong> if you want to change the permissions of the document.</p></li>
+</ol>
+</div>
+<div class="section" id="quality-control">
+<h2>Quality control<a class="headerlink" href="#quality-control" title="Permalink to this headline">¶</a></h2>
+<p>Before the dataset can be published for the wider audience, the CRD Data managers’ team will quality check it and make sure the data meets CRD’s data quality requirements and standards. To read more about these, please see the section above <strong>“Data quality standards”</strong>.</p>
+<p>The CRD Data managers’ team will use the following instructions to run a systematic quality control for the data. These quality control instructions are created to match the data quality requirements and standards discussed above. You as a data provider are also free to use these documents to guide your work.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://geonode.resilienceacademy.ac.tz/documents/154">Quality control instructions (vector)</a></p></li>
+<li><p><a class="reference external" href="https://geonode.resilienceacademy.ac.tz/documents/158">Quality control instructions (raster)</a></p></li>
+</ul>
+<p>In case of quality issues or further questions, the CRD Data managers’ team will contact you. Usually questions are related to metadata which needs additional information. When the quality check is done and the CRD Data managers’ team has approved your dataset, it will be published. You will be informed when the data is up and running and ready to be downloaded</p>
+</div>
+<div class="section" id="contacting">
+<h2>Contacting<a class="headerlink" href="#contacting" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="resilience-academy">
+<h3>Resilience Academy<a class="headerlink" href="#resilience-academy" title="Permalink to this headline">¶</a></h3>
+<p>Contact Resilience Academy in general inquiries by emailing to “<a class="reference external" href="mailto:resilienceacademytz&#37;&#52;&#48;gmail&#46;com">resilienceacademytz<span>&#64;</span>gmail<span>&#46;</span>com</a>”.</p>
+</div>
+<div class="section" id="crd-data-managers">
+<h3>CRD Data managers<a class="headerlink" href="#crd-data-managers" title="Permalink to this headline">¶</a></h3>
+<p>Contact the Climate Risk Database data management team in matters of discussing datasets that could be uploaded to CRD, the details of quality standards, or when other advice related to data is needed.
+CRD Data managers’ team members can be found from <strong>Community → Community groups → Data Managers → Click the group icon</strong>.
+Here you can see the CRD Data Managers and their contact information. Contact one or all of them via sending email. They are happy to help!</p>
+</div>
 </div>
 </div>
 
@@ -68,24 +225,36 @@
 <p class="caption"><span class="caption-text">Table of Contents:</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="using-crd.html">Using CRD</a></li>
-<li class="toctree-l1"><a class="reference internal" href="community.html">Community</a></li>
-<li class="toctree-l1"><a class="reference internal" href="layers.html">Layers</a></li>
-<li class="toctree-l1"><a class="reference internal" href="thematic-maps.html">Thematic Maps</a></li>
-<li class="toctree-l1"><a class="reference internal" href="documents.html">Documents</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Data Provider</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#data-quality-standards">Data quality standards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#metadata">Metadata</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#attribute-metadata">Attribute metadata</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#spatial-geometry-and-connectivity">Spatial geometry and connectivity</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#attributes-and-values">Attributes and values</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#visualisation">Visualisation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#file-format">File format</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#license">License</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#submitting-data">submitting-data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#upload-layer">Upload layer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#edit-metadata">Edit metadata</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#upload-style">Upload style</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#upload-layer-through-command-line">Upload layer through command line</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#upload-documents">Upload documents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#quality-control">Quality control</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#contacting">Contacting</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="metadata.html">Metadata</a></li>
-<li class="toctree-l1"><a class="reference internal" href="spatial-geometry-and-connectivity.html">spatial-geometry-and-connectivity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="training.html">Training</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data-users.html">Data users</a></li>
+<li class="toctree-l1"><a class="reference internal" href="crd-data-managers.html">CRD Data managers</a></li>
 </ul>
 
 <div class="relations">
 <h3>Related Topics</h3>
 <ul>
   <li><a href="index.html">Documentation overview</a><ul>
-      <li>Previous: <a href="documents.html" title="previous chapter">Documents</a></li>
-      <li>Next: <a href="metadata.html" title="next chapter">Metadata</a></li>
+      <li>Previous: <a href="using-crd.html" title="previous chapter">Using CRD</a></li>
+      <li>Next: <a href="training.html" title="next chapter">Training</a></li>
   </ul></li>
 </ul>
 </div>
