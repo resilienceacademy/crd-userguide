@@ -39,6 +39,7 @@ Inspiration
 The `Thematic Maps <https://geonode.resilienceacademy.ac.tz/maps/>`_ section provides some examples of analysis and visualisation for geospatial datasets downloadable via the Climate Risk Database.
 These might serve as an inspiration of how to utilize the available data in planning, research, education and information dissemination. 
 
+
 Other databases and map services
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 

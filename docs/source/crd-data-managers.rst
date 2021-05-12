@@ -15,5 +15,5 @@ Training
 ^^^^^^^^
 
 All training materials for the CRD Data managers are gathered to the Digicampus platform. Detailed list of activities, instructions for several data management operations, and important documents are saved there. The materials are available for use any time. Digicampus platform requires a Gmail registration.
-• Digicampus online mini-course: `CRD Data management <https://digicampus.fi/course/view.php?id=1041&section=1>`_ (only for CRD Data managers)
-• Digicampus online mini-course: `Data curation skills <https://digicampus.fi/course/view.php?id=1041&section=1>`_ (for everyone interested in data curation skills)
+- Digicampus online mini-course: `CRD Data management <https://digicampus.fi/course/view.php?id=1041&section=1>`_ (only for CRD Data managers)
+- Digicampus online mini-course: `Data curation skills <https://digicampus.fi/course/view.php?id=1041&section=1>`_ (for everyone interested in data curation skills)

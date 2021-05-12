@@ -1,6 +1,6 @@
 
 =============
-Data Provider
+Data providers
 =============
 
 Do you have datasets that would be suitable to be published in the CRD? Or are you starting a new data collection process with the final data product being uploaded to the CRD? Please take a look at this section’s content to guide your work.
@@ -12,9 +12,9 @@ All datasets published via the CRD must meet **CRD Data quality requirements and
 
 Download data quality requirements and checklist of the standards applied in the Climate Risk Database through the CRD:
 
-- `data quality requirement and standards <https://geonode.resilienceacademy.ac.tz/documents/398>`_
+- `Data quality requirements and standards <https://geonode.resilienceacademy.ac.tz/documents/398>`_
 
-- `data quality requirement and standards (TURP) <https://geonode.resilienceacademy.ac.tz/documents/182>`_ this version is for data acquisition projects under the TURP program.
+- `Data quality requirements and standards (TURP) <https://geonode.resilienceacademy.ac.tz/documents/182>`_ - this version is for data acquisition projects under the TURP program.
 
 
 The elements of these documents are highlighted below.
@@ -26,7 +26,7 @@ Metadata describes the dataset and its lineage, and therefore it is as crucial a
 
 The Climate Risk Database follows the International Organization for Standardization’s metadata standards. More detailed, the ISO 19115 Geographic Information - Metadata standard.
 
-*Example:* `Nungwi Trees <https://geonode.resilienceacademy.ac.tz/layers/geonode_data:geonode:nungwi_trees#more>`_ dataset has a great set of metadata. The dataset, the collection process and the project behind it has been clearly explained, as well as the consistency and completeness of the data.
+Example: `Nungwi Trees <https://geonode.resilienceacademy.ac.tz/layers/geonode_data:geonode:nungwi_trees#more>`_ dataset has a great set of metadata. The dataset, the collection process and the project behind it has been clearly explained, as well as the consistency and completeness of the data.
 
 Download the metadata instruction through the CRD: `Metadata instruction <https://geonode.resilienceacademy.ac.tz/documents/144>`_
 
@@ -43,7 +43,7 @@ Example: `Dar es Salaam Historical Flood Depths <https://geonode.resilienceacade
 Download the attribute metadata instruction through the CRD: -	`Attribute metadata instruction <https://geonode.resilienceacademy.ac.tz/documents/145>`_
 
 Spatial geometry and connectivity
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+*********************************
 
 Good geometrical quality/topological connectivity for vector datasets means that the vector objects have been created carefully, and no unintentional errors are tolerated. This is case-specific for different datasets, and the data provider must be aware of the best practices in their field.
 
@@ -61,14 +61,14 @@ CRD provides a quick instruction how to use the QGIS Topology Fix tool to check 
 
 
 Attributes and values
-^^^^^^^^^^^^^^^^^^^^^
+*********************
 
 The attributes and values of datasets must be relevant for the phenomenon the dataset represents. Relevant attributes are always case-specific, and recognizing them is easiest when the goal of the data acquisition process is clear. To make sure all values are recorded correctly, all individuals taking part in the acquisition process must understand what the attributes and values mean and how they should be recorded. Training is crucial part to minimize the human errors and uneven quality of the dataset.
 
 In the final data product, the values should be consistent (e.g. no “type = football” and “type = Football”), be of appropriate format (e.g. numbers in Integer or Decimal format and texts in String format) and all attributes should be complete (i.e. no empty observations). In case of empty observations, “NA” should be recorded, and the reasons of the “NA” should be carefully explained in the metadata. See an example of this in the metadata section Data Quality Statement of `Nungwi Buildings <https://geonode.resilienceacademy.ac.tz/layers/geonode_data:geonode:nungwi_buildings>`_ dataset.
 
 Visualisation
-^^^^^^^^^^^^^
+*************
 
 Good visualisation is at the core of impactful and truthful geospatial data. In case you want the dataset to have a specific visualisation when it is displayed in the Climate Risk Database, make sure you send a visualisation file with the data. Visualisations can be saved to an .SLD file (Styled Layer Descriptor) for example in QGIS, which then can be uploaded to the CRD as such.
 
@@ -76,7 +76,7 @@ Download an instruction for creating SLD files in QGIS from the CRD:
 -	`Instruction: Creating SLD in QGIS <https://geonode.resilienceacademy.ac.tz/documents/135>`_
 
 File format
-^^^^^^^^^^^
+***********
 
 To ensure accessibility, all files - the dataset and metadata - must be in machine readable formats. Approved file formats are the following:
 
@@ -86,7 +86,7 @@ To ensure accessibility, all files - the dataset and metadata - must be in machi
 - Visualisation: SLD format
 
 License
-^^^^^^^
+*******
 
 All datasets must be shared under a license. License tells data users how they can use the data without violating data owner’s rights. License can determine for example whether the data can be modified, re-shared or used for commercial purposes and how the owner should be acknowledged.
 
@@ -99,10 +99,11 @@ Climate Risk Database and Resilience Academy are advocates for open data and inf
 - Other Creative Commons 4.0 variations
 
 For example: All World Bank owned datasets published in the CRD are licensed under Creative Commons Attribution 4.0 (CC-BY 4.0), which means the users are allowed to copy, modify and distribute data in any format for any purpose, including commercial use. Users are only obligated to give appropriate credit (attribution) and indicate if they have made any changes, including translations. `Read more about Creative Commons licenses: <https://creativecommons.org/about/cclicenses/>`_
-All OpenStreetMap related datasets must follow the terms of licenses of OpenStreenMap Foundation. OpenStreetMap licenses their data under Open Data Commons Open Database License (ODbL). `Read more: <https://www.openstreetmap.org/copyright>`_
+All OpenStreetMap related datasets must follow the terms of licenses of OpenStreenMap Foundation. OpenStreetMap licenses their data under Open Data Commons Open Database License (ODbL). Read more: <https://www.openstreetmap.org/copyright>
 
 
-submitting-data
+
+Submitting data
 ^^^^^^^^^^^^^^^
 
 If you have geospatial data that would be great for sharing in the Climate Risk Database, kindly contact the CRD Data managers’ team first.
@@ -113,7 +114,7 @@ If you would prefer the CRD Data managers’ team to upload the data, that is al
 Thank you for contributing to our community by providing your data to the Climate Risk Database!
 
 Upload layer
-^^^^^^^^^^^^
+************
 
 Download visual instructions: `Instruction: Upload layers to CRD. <https://geonode.resilienceacademy.ac.tz/documents/127>`_
 
@@ -203,3 +204,39 @@ CRD Data managers
 Contact the Climate Risk Database data management team in matters of discussing datasets that could be uploaded to CRD, the details of quality standards, or when other advice related to data is needed.
 CRD Data managers’ team members can be found from **Community → Community groups → Data Managers → Click the group icon**.
 Here you can see the CRD Data Managers and their contact information. Contact one or all of them via sending email. They are happy to help!
+
+
+Training
+^^^^^^^^
+
+Open online learning courses
+****************************
+
+To learn more about Resilience Academy / CRD data curation protocols, to enhance data curation skills, to learn more about geospatial data management, complete this open-access Data curation skills learning module, developed by the Resilience Academy.
+The course platform requires a Gmail-registration. 
+
+- `Mini-module: Data curation skills <https://digicampus.fi/course/view.php?id=1041&section=1>`_
+
+
+Resilience Academy has also developed eight geospatial data related online learning courses, open for everyone. The courses are aimed for university students, but also experts in the field and they contain useful content for everyone working with geospatial data.
+Find descriptions and links for all courses from `Resilience Academy website: <https://resilienceacademy.ac.tz/learning-resources/>`_ .
+Course platform requires a Gmail-registration. Relevant content for data providers are for example on these courses:
+
+- `Module 2: Geospatial data quality & management <https://digicampus.fi/course/view.php?id=493>`_
+- `Module 3: Geospatial data visualisation <https://digicampus.fi/course/view.php?id=948>`_
+- `Module 6: Community mapping for improved resilience planning <https://digicampus.fi/course/view.php?id=1014>`_
+
+Tool instructions
+*****************
+
+A list of useful tools for geospatial data management can be found in the CRD, just navigate to **Resources → Tools**.
+The Resilience Academy has created instructions for using these tools and they can be downloaded via the CRD as well.
+
+Events and trainings
+********************
+
+Resilience Academy has hosted a number of events to train geospatial experts in data management related issues.
+Some of these events has been recorded and the recordings can be found from the Resilience Academy YouTube-channel, under the playlist `Data quality, data management, data sharing online training <https://youtube.com/playlist?list=PLHZ-OHNG6he6qXleatlOaXotKK4N_xo-5>`_. 
+
+Resilience Academy might host open training sessions for all in the future as well.
+Keep an eye on the Resilience Academy’s social media channels, such as Twitter (`@Tanzania_RA <https://twitter.com/Tanzania_RA>`_) to hear more about them.

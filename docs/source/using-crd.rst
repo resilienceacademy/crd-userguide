@@ -3,7 +3,7 @@
 Using CRD
 =========
 
-Instructions for basic navigation and usage in the Climate Risk Database.
+Instructions for basic navigation and usage of the Climate Risk Database.
 Here you will find guides how to register to the service and how to explore the contents.
 
 Registering
@@ -99,7 +99,7 @@ Some of the members are CRD Data Managers. They are data experts who validate an
 2.	Click the header of the group you want to explore more detailed.
 3.	Read about the activities of the group from the description. Explore sub-groups of that group by scrolling down.
 
-layers
+Layers
 ^^^^^^
 
 Layers, i.e. geospatial datasets are the main content of the Climate Risk Database.
@@ -117,12 +117,12 @@ Explore all geospatial datasets published in the CRD, view them on a map and dow
   3.	Notice that layers are spread on multiple pages! Search through the pages at the bottom of the page.
   4.	When you find the layer you are looking for, click the title to access more detailed information about that layer.
 
-  .. .. raw:: html
+ .. raw:: html
 
       <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-          <iframe src="https://www.youtube.com/watch?v=IbURhIc5VFY" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+          <iframe src="https://youtu.be/7seFPY8OyGk" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
       </div>
-  .. :copyright: (c) 2021 by resilienceacademytz.
+ :copyright: (c) 2021 by resilienceacademytz.
 
 
 Layer page
@@ -135,12 +135,12 @@ Layer page contains a preview and metadata of the layer in questions, downloadin
 3.	Tabs below the map window hold information of metadata, attributes, as well as social activities. You can share, rate and comment all datasets when you are signed in.
 4.	The bar in the right holds additional information and actions. You find links to maps where the layer is used, and the documents that are attached to the layer. If there are multiple different styles attached to the layer, you can choose between them to view them in the map window.
 
-  .. .. raw:: html
+ .. raw:: html
 
       <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-          <iframe src="https://www.youtube.com/watch?v=IbURhIc5VFY" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+          <iframe src="https://youtu.be/4b0p6UQ4f4U" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
       </div>
-  .. :copyright: (c) 2021 by resilienceacademytz.
+ :copyright: (c) 2021 by resilienceacademytz.
 
 Layer metadata
 **************
@@ -150,12 +150,12 @@ Layer metadata
   3.	If you want to save the metadata information to view later, click **Download Metadata** from the right-hand side of the map window. Here, choose the format you want to download the metadata in. If you are not familiar with XML-formats, choose the HTML format, copy and save the link from the search bar.
   4.	The most important pieces of metadata are the Abstract and Owner of the layer. If you have anything to ask regarding the layer, click the name of the owner organization, and send an email to the address that can be found from their profile page.
 
-  .. .. raw:: html
+ .. raw:: html
 
       <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-          <iframe src="https://www.youtube.com/watch?v=IbURhIc5VFY" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+          <iframe src="https://youtu.be/hy-mewS7XFU" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
       </div>
-  .. :copyright: (c) 2021 by resilienceacademytz.
+ :copyright: (c) 2021 by resilienceacademytz.
 
 Layer preview
 *************
@@ -187,10 +187,10 @@ View maps
 2.	Information page of that map opens up. Here you find metadata and a preview of the map. You can leave comments or ratings and share the map in your social media networks by browsing the tabs below the map window.
 3.	For more detailed exploration, click **View Map** from the right-hand side menu. Map view opens up where you can pan, zoom and query the map, search locations, choose which layers are visible and even measure distances on the map. Explore the functions and have fun with the maps!
 
-.. .. raw:: html
+ .. raw:: html
 
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe src="https://www.youtube.com/watch?v=IbURhIc5VFY" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+        <iframe src="https://youtu.be/bXPAjxpgOhU" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
  :copyright: (c) 2021 by resilienceacademytz.
 
@@ -209,9 +209,9 @@ Explore documents
  3.	Click the title of the document you are interested in. On the document page, you can read the metadata of the document, and comment, rate and share it.
  4.	Download and open the document by clicking the title or **Download document**.
 
- .. .. raw:: html
+  .. raw:: html
 
      <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-         <iframe src="https://www.youtube.com/watch?v=IbURhIc5VFY" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+         <iframe src="https://youtu.be/PK3qw6Wh23Q" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
      </div>
- .. :copyright: (c) 2021 by resilienceacademytz.
+  :copyright: (c) 2021 by resilienceacademytz.
